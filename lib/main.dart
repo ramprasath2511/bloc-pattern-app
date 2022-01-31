@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'login_screen.dart';
+import 'home_page.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -77,12 +78,8 @@ class _MyHomePageState extends State<MyHomePage> {
         // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
       ),
-      body: LoginScreen(),
-      // floatingActionButton: FloatingActionButton(
-      //   onPressed: _incrementCounter,
-      //   tooltip: 'Increment',
-      //   child: const Icon(Icons.add),
-      // ), // This trailing comma makes auto-formatting nicer for build methods.
+      body: InputScreen(),
+
     );
   }
 }
